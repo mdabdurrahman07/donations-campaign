@@ -5,7 +5,7 @@ const Banner = () => {
         <div className="mt-3">
            <div className="banner-img overflow-visible bg-slate-500">
           <div className="flex items-center">
-          <input type="text" placeholder="Search here" className="input input-bordered input-md w-full max-w-xs mt-80 ml-96" />
+          <input type="text" placeholder="Search here" className="input input-bordered input-md w-40 md:w-full  max-w-xs mt-80  ml-16  md:ml-44 lg:ml-96" />
          <button className="bg-[#FF444A] text-white mt-80 px-5 py-3 rounded-e-lg">Search</button>
           </div>
            </div>
