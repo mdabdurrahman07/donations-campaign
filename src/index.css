@@ -1,3 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    font-family: 'Inter', sans-serif;
+}
+.banner-img{
+    background-image: url(/logo/Rectangle\ 4281.png);
+    object-fit: cover;
+    height: 600px;
+    background-blend-mode: soft-light;
+  
+    
+     
+    
+}
