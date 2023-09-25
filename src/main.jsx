@@ -9,13 +9,16 @@ import Home from './Pages/Home/Home';
 import Mainroute from './Components/Mainroute/Mainroute';
 import Donations from './Pages/Donations/Donations';
 import Statistics from './Pages/Statistics/Statistics';
-import CardDetails from './Components/CardDetails/CardDetails';
+import Error from './Components/Error/Error';
+import Card from './Components/Card/Card';
+
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Mainroute></Mainroute>,
+    // errorElement: <Error></Error>,
     children: [
       {
         path: "/",
@@ -31,7 +34,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/cards/:id",
-        element: <CardDetails></CardDetails>
+        element: <Card></Card>,
+        loader: ()=> fetch('/data.json')
+        
+      },
+      {
+        
       }
 
     ]
