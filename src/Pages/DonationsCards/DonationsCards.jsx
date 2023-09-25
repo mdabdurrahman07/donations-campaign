@@ -6,7 +6,7 @@ const DonationsCards = ({items}) => {
     return (
         <div className="mb-5">
            <div className="card card-side  drop-shadow-lg" style={{backgroundColor: Card_bg }}>
-  <figure><img src={Picture.rectangle_pic} alt="pic"/></figure>
+  <figure><img className="pl-5" src={Picture.rectangle_pic} alt="pic"/></figure>
   <div className="card-body space-y-4">
   <h2 className="w-24 text-center p-2 font-medium text-base"style={{backgroundColor: Category_bg, color:Text_and_button_bg.bg_color}} >{Category}</h2>
     <p className="font-semibold text-2xl">{Title}</p>
