@@ -11,7 +11,9 @@ body{
     background-image: url(/logo/Rectangle\ 4281.png);
     background-size: cover;
     height: 600px;
-    background-blend-mode: soft-light;
+    background-blend-mode: screen;
+    
+   
   
     
      

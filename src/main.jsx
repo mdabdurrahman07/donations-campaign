@@ -9,6 +9,8 @@ import Home from './Pages/Home/Home';
 import Mainroute from './Components/Mainroute/Mainroute';
 import Donations from './Pages/Donations/Donations';
 import Statistics from './Pages/Statistics/Statistics';
+import CardDetails from './Components/CardDetails/CardDetails';
+
 
 const router = createBrowserRouter([
   {
@@ -26,7 +28,12 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>
+      },
+      {
+        path: "/cards/:id",
+        element: <CardDetails></CardDetails>
       }
+
     ]
   },
 ]);
