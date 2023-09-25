@@ -12,10 +12,27 @@ body{
     background-size: cover;
     height: 600px;
     background-blend-mode: screen;
-    
    
-  
-    
-     
-    
 }
+.btn-container{
+ position: absolute;
+ background: rgb(0, 0, 0);
+ background: rgba(0, 0, 0, 0.5);
+ color: #f1f1f1;
+ width: 1000px;
+ height: 100px;
+ padding: 30px;
+margin-top:  -100px;
+ opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+    .btn-container{
+        width: 425px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .btn-container{
+        width: 768px;
+    }
+  }  

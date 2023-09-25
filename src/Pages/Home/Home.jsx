@@ -16,7 +16,7 @@ const Home = () => {
                     <Banner></Banner>
                 </div>
             
-           <div className="grid grid-cols-4 justify-center items-center gap-5 mt-96">
+           <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-10 mt-96 ml-14 md:ml-10 lg:ml-0">
             {
                 donationdata.map(Elements => <AllDonationsCategories key={Elements.id} Elements={Elements} ></AllDonationsCategories>)
             }
