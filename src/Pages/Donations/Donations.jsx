@@ -14,7 +14,7 @@ const Donations = () => {
         setdonate(DonatedPrice)
       }
       else{
-        setnodata("You Have Nothing Donate Yet")
+        setnodata("You Haven’t Made Any  Donations Yet")
       }
    
     
